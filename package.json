@@ -1,0 +1,15 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "description": "A email api to send email via EmailJS(https://www.emailjs.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "email"
+  ],
+  "author": "Syed Salif Moin",
+  "license": "ISC"
+}

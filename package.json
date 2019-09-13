@@ -11,5 +11,9 @@
     "email"
   ],
   "author": "Syed Salif Moin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  }
 }

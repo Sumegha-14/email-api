@@ -19,8 +19,8 @@ router.post('/', (req, res, next)=> {
     else {
         // data forEmailJS
         const data = {
-            service_id: 'gmail',
-            template_id: 'template_zylCtdL2',
+            service_id: process.env.SERVICE_ID,
+            template_id: process.env.TEMPLATE_ID,
             user_id: process.env.USER_ID,
             template_params: {
                 'to_name': 'SYED SALIF MOIN',

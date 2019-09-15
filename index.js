@@ -6,7 +6,7 @@ const app = require('./app');
 // configure environment variables
 
 // configure port
-const port = process.env.PORT | 5000;
+const port = process.env.PORT || 5000;
 console.log(port);
 
 // create server

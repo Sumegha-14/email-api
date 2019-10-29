@@ -1,7 +1,7 @@
 # EMAIL API
 An API for use by [SYED SALIF MOIN](https://github.com/salif-04) in his [Portfolio](https://salif-04.github.io/).
 
-## Endoints
+## Endpoints
 
 ### POST /email
 - This endpoint sends email to [SYED SALIF MOIN](https://github.com/salif-04)

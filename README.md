@@ -3,7 +3,7 @@ An API for use by [SYED SALIF MOIN](https://github.com/salif-04) in his [Portfol
 
 ## Endpoints
 
-### POST /email
+![POST /email](https://img.shields.io/static/v1?label=POST&message=%2Femail&colorB=00cc00&style=flat-square)
 - This endpoint sends email to [SYED SALIF MOIN](https://github.com/salif-04)
 
 #### Parameters
@@ -22,3 +22,9 @@ An API for use by [SYED SALIF MOIN](https://github.com/salif-04) in his [Portfol
 | 200         | Email Sent               | Email is sent successfully                                     |
 | 402         | Data is not defined      | One or More of the required/essential parameter is/are missing |
 | 401         | Error in sending request | Timeout Occured                                                |
+
+## Installation Guide
+- git clone https://github.com/salif-04/email-api.git
+- cd email-api
+- npm install
+- npm start

@@ -1,5 +1,5 @@
 # EMAIL API
-An API for use by [SYED SALIF MOIN](https://github.com/salif-04) in his [Portfolio](https://salif-04.github.io/).
+An API for use by [SYED SALIF MOIN](https://github.com/salif-04) in his [Portfolio](https://salif-04.github.io/). It uses [EmailJS](https://www.emailjs.com/) services for sending email.
 
 ## Endpoints
 
@@ -26,5 +26,7 @@ An API for use by [SYED SALIF MOIN](https://github.com/salif-04) in his [Portfol
 ## Installation Guide
 - git clone https://github.com/salif-04/email-api.git
 - cd email-api
+- touch .env
+- Get SERVICE_ID, TEMPLATE_ID and USER_ID from [EmailJS](https://www.emailjs.com/) and add them to .env
 - npm install
 - npm start

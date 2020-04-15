@@ -11,7 +11,7 @@ router.post('/', (req, res, next)=> {
     console.log(req.headers.host);
 
     // check if all parameters are set
-    if (!(req.body.from_name && req.body.from_email && req.body.subject && req.body.message_html && req.body.address && req.body.phone)) {
+    if (!(req.body.from_name && req.body.from_email && req.body.subject && req.body.message_html && req.body.phone)) {
         const error = new Error('Data is not defined');
         error.status = 402;
         next(error);
@@ -23,12 +23,10 @@ router.post('/', (req, res, next)=> {
             template_id: process.env.TEMPLATE_ID,
             user_id: process.env.USER_ID,
             template_params: {
-                'to_name': 'SYED SALIF MOIN',
                 'from_name': req.body.from_name,
                 'from_email': req.body.from_email,
                 'subject': req.body.subject,
                 'message_html': req.body.message_html,
-                'address': req.body.address,
                 'phone': req.body.phone
             }
         };
